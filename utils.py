@@ -24,6 +24,7 @@ class AverageMeter:
         self.count += n
         self.avg = self.sum / self.count
 
+#view --> reshape changed
 
 def accuracy(output, target, topk=(1, )):
     """Adapted from https://github.com/pytorch/examples/blob/master/imagenet/main.py
